@@ -112,6 +112,15 @@ aside .btn_top.on{ opacity: 1; }
 }
 .visual .yellow{ color: #ffdb00; }
 .visual .swiper-button-next::after, .visual .swiper-button-prev::after{ color: #fff; }
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 480px) {
+    
+}
 
 /* brand information */
 .brand .box{ 
@@ -178,10 +187,10 @@ aside .btn_top.on{ opacity: 1; }
 .best .tab_wrap{ display: flex; justify-content: space-between; width: 100%; margin: 0 0 30px; }
 .best .tab_wrap .all_btn:hover{ border-bottom: 2px solid #999; }
 
-.best .tab_btn{ display: flex; }
+.best .tab_btn{ display: flex; align-items: center; }
 .best .tab_btn > li{ position: relative; padding: 0 30px; }
 .best .tab_btn > li::after{
-    position: absolute; left: 0; top: 3px;
+    position: absolute; left: 0; top: 4px;
     content: ''; 
     width: 1px; height: 14px; background-color: #999; text-align: center; 
 }
@@ -223,9 +232,16 @@ aside .btn_top.on{ opacity: 1; }
 @media screen and (max-width: 768px) {
     .best a{ font-size: 14px; }
     .best .tab_btn > li{ padding: 0 15px; }
+    .best .tab_btn > li::after{ top: 2px; font-size: 10px; }
     .top_box #best_title{ font-size: 24px; }
     .top_box p.kind{ margin-bottom: 10px; } 
     .top_box a{ height: auto; }
+}
+@media screen and (max-width: 480px) {
+    .best .tab_btn a{ font-size: 12px; }
+    .best .all_btn{ font-size: 12px; }
+    .top_box #best_title{ font-size: 18px; }
+    .top_box p.kind{ font-size: 12px; } 
 }
 
 /* service */
