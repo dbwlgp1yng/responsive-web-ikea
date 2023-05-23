@@ -49,6 +49,7 @@ btnTop.addEventListener('click', () => {
 
 // ----------------------jQuery-------------------------
 $(function(){
+
     // header
     let winWidth = $(window).width();
 
@@ -57,9 +58,29 @@ $(function(){
         if(winWidth > 768){
             $('.gnb_wrap').removeAttr('style');
         }
+        saveSectionPos();
     });
+
+    // header
     $('.toggle').on('click', function(){
         $('.gnb_wrap').fadeToggle();
+    });
+
+    $('.gnb > li').on('mouseenter', function(){
+        if(winWidth > 768){
+            $(this).children('.submenu').stop().slideDown();
+        } else{
+            $('.gnb > li > a').off('click');
+            $('.gnb > li > a').on('click', function(){
+                $('.submenu').stop().slideUp();
+                $(this).next('.submenu').stop().slideToggle();
+            });
+        }
+    });
+    $('.gnb > li').on('mouseleave', function(){
+        if(winWidth > 768){
+            $(this).children('.submenu').stop().slideUp();
+        }
     });
 
     // main
