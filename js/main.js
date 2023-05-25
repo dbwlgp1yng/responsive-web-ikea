@@ -1,53 +1,4 @@
-let winWidth = window.innerWidth;
-let pos = [];
-let baseLine = -300;
-let con = document.querySelectorAll('section');
-let btnTop = document.querySelector('.btn_top');
 
-function saveSectionPos(){
-    pos = [];
-
-    con.forEach(el => pos.push(el.offsetTop));
-    pos.push(document.getElementsByTagName('footer')[0].offsetTop);
-}
-saveSectionPos();
-
-window.addEventListener('resize', () => {
-    saveSectionPos();
-});
-
-window.addEventListener('scroll', () => {
-    let scroll = this.scrollY;
-
-    // header
-    if(scroll > 100){
-        document.querySelector('header').classList.add('on');
-    } else{
-        document.querySelector('header').classList.remove('on');
-    }
-    
-    // aside
-    if(scroll >= 700){
-        btnTop.classList.add('on');
-    } else{
-        btnTop.classList.remove('on');
-    }
-
-    // section on
-    con.forEach((el, i) => {
-        if(scroll >= pos[i] + baseLine && scroll < pos[i+1] + baseLine){
-            el.classList.add('on');
-        }
-    });
-});
-
-// scroll top click
-btnTop.addEventListener('click', () => {
-    window.scrollTo({top: 0, behavior: "smooth"});
-});
-
-
-// ----------------------jQuery-------------------------
 $(function(){
 
     // header
@@ -85,6 +36,8 @@ $(function(){
 
     // main
     var swiper = new Swiper(".visual .swiper", {
+        loop: true,
+        centeredSlides: true,
         navigation: {
           nextEl: ".visual .swiper-button-next",
           prevEl: ".visual .swiper-button-prev",
@@ -125,6 +78,18 @@ $(function(){
         autoplay: {
             delay: 2000,
             disableOnInteraction: false,
+        },
+        breakpoints: {
+            480: {
+                slidesPerView: 5,
+                // slidesPerGroup: 2,
+            },
+            768: {
+                slidesPerView: 5,
+            },
+            1200: {
+                slidesPerView: 5,
+            },
         },
       });
 });

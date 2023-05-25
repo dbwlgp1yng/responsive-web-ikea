@@ -12,64 +12,63 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="inner">
-                <div class="left_nav">
-                    <h1 class="logo"><a href="#"><img src="img/common/logo.png" alt="이케아로고"></a></h1>
-                    <nav class="gnb_wrap">
-                        <ul class="gnb">
-                            <li>
-                                <a href="#">ABOUT</a>
-                                <ul class="submenu">
-                                    <li><a href="#">브랜드소개</a></li>
-                                    <li><a href="#">뉴스룸</a></li>
-                                    <li><a href="#">채용정보</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">PRODUCT</a>
-                                <ul class="submenu">
-                                    <li><a href="#">모든제품</a></li>
-                                    <li><a href="#">신제품</a></li>
-                                    <li><a href="#">인기제품</a></li>
-                                    <li><a href="#">지속가능한제품</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">SERVICE</a>
-                                <ul class="submenu">
-                                    <li><a href="#">배송서비스</a></li>
-                                    <li><a href="#">조립서비스</a></li>
-                                    <li><a href="#">설치서비스</a></li>
-                                    <li><a href="#">주방서비스</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">SHOWROOM</a>
-                                <ul class="submenu">
-                                    <li><a href="#">하우스공간</a></li>
-                                    <li><a href="#">오피스공간</a></li>
-                                    <li><a href="#">야외공간</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">SUPPORT</a>
-                                <ul class="submenu">
-                                    <li><a href="#">문의하기</a></li>
-                                    <li><a href="#">헤이오더</a></li>
-                                    <li><a href="#">매장찾기</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                    <button type="button" class="toggle"><i class="fa-solid fa-bars"></i></button>
-                </div>
-                <div class="right_nav">
+                <h1 class="logo"><a href="#"><img src="img/common/logo.png" alt="이케아로고"></a></h1>
+                <nav class="gnb_wrap">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">ABOUT</a>
+                            <ul class="submenu">
+                                <li><a href="#">브랜드소개</a></li>
+                                <li><a href="#">뉴스룸</a></li>
+                                <li><a href="#">채용정보</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">PRODUCT</a>
+                            <ul class="submenu">
+                                <li><a href="#">모든제품</a></li>
+                                <li><a href="#">신제품</a></li>
+                                <li><a href="#">인기제품</a></li>
+                                <li><a href="#">지속가능한제품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">SERVICE</a>
+                            <ul class="submenu">
+                                <li><a href="#">배송서비스</a></li>
+                                <li><a href="#">조립서비스</a></li>
+                                <li><a href="#">설치서비스</a></li>
+                                <li><a href="#">주방서비스</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">SHOWROOM</a>
+                            <ul class="submenu">
+                                <li><a href="#">하우스공간</a></li>
+                                <li><a href="#">오피스공간</a></li>
+                                <li><a href="#">야외공간</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">SUPPORT</a>
+                            <ul class="submenu">
+                                <li><a href="#">문의하기</a></li>
+                                <li><a href="#">헤이오더</a></li>
+                                <li><a href="#">매장찾기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="util_menu">
                     <a href="#" class="user icon"><i class="fa-regular fa-user"></i></a>
                     <a href="#" class="search icon"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
+                <button type="button" class="toggle"><i class="fa-solid fa-bars"></i></button>
             </div>
         </header>
         <aside>
@@ -78,28 +77,28 @@
         <main class="visual">
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/main/mainslider01.jpg" alt="메인이미지01">
+                    <div class="swiper-slide main01">
+                        <img src="img/main/mainslider01.png" alt="메인이미지01">
                         <div class="info">
                             <p class="main_txt">태양에너지의 세계를 향한 여정</p>
                             <p class="main_title">주머니 속 <span class="yellow">태양광</span></p>
                             <p class="main_txt">Collaboration with Little Sun</p>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/main/mainslider02.jpg" alt="메인이미지02">
+                    <div class="swiper-slide main02">
+                        <img src="img/main/mainslider02.png" alt="메인이미지02">
                         <div class="info">
                             <p class="main_txt">랑수트라(Rangsutra)에서 만든 작품</p>
-                            <p class="main_title">함께 모이는 즐거움</p>
-                            <p class="main_txt">ÖMSESIDIG Collection</p>
+                            <p class="main_title">IKEA Family 혜택</p>
+                            <p class="main_txt">더 알차게 누려보세요</p>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/main/mainslider03.jpg" alt="메인이미지03">
+                    <div class="swiper-slide main03">
+                        <img src="img/main/mainslider03.png" alt="메인이미지03">
                         <div class="info">
-                            <p class="main_txt">이케아 혜택, 더 알차게 누려보세요</p>
-                            <p class="main_title">IKEA Family</p>
-                            <p class="main_txt">If you like IKEA, please join the IKEA Family.</p>
+                            <p class="main_txt">IKEA에서 만나는 야외 준비물</p>
+                            <p class="main_title">Outdoor Space</p>
+                            <p class="main_txt">Get ready this summer at IKEA.</p>
                         </div>
                     </div>
                 </div>
@@ -410,41 +409,44 @@
         <section class="showroom content">
             <div class="inner">
                 <h2 class="title">SHOWROOM</h2>
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="img/main/showroom1.jpg" alt="쇼룸이미지01">
-                            <div class="info">
-                                <p class="title">VIHALS 비할스 시리즈</p>
-                                <p class="txt">
-                                    조합이 쉬운 합리적인 가격의 심플하고 모던한 <span>수납유닛</span><br/>
-                                    도어가 달린 유닛을 선택하면 물건을 숨길 수 있고 외관도 깔끔해요.
-                                </p>
+                <div class="wrap">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/main/showroom1.jpg" alt="쇼룸이미지01">
+                                <div class="info">
+                                    <p class="title">VIHALS 비할스 시리즈</p>
+                                    <p class="txt">
+                                        조합이 쉬운 합리적인 가격의 심플하고 모던한 <span>수납유닛</span><br/>
+                                        도어가 달린 유닛을 선택하면 물건을 숨길 수 있고 외관도 깔끔해요.
+                                    </p>
+                                </div>
                             </div>
+                            <div class="swiper-slide">
+                                <img src="img/main/showroom2.jpg" alt="쇼룸이미지02">
+                                <div class="info">
+                                    <p class="title">보헤미안 스타일의 아늑한 침실</p>
+                                    <p class="txt">
+                                        <span>화초와 어스 톤 컬러</span>로 채워진 평온한 아이와의 공간<br/>
+                                        풍성한 텍스타일과 목재, 라탄 등의 소재는 낮이나 밤이나 평온하고 아늑한 느낌을 선사해요.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main/showroom3.jpg" alt="쇼룸이미지03">
+                                <div class="info">
+                                    <p class="title">10대 아이들을 위한 아지트</p>
+                                    <p class="txt">
+                                        차분하면서 성숙한 느낌을 주는 그레이톤의 방에 아늑한 침대를<br/>놓아주면 10대 아이를 위한 <span>달콤한 안식처</span>가 완성됩니다.
+                                    </p>
+                                </div>
+                            </div>  
                         </div>
-                        <div class="swiper-slide">
-                            <img src="img/main/showroom2.jpg" alt="쇼룸이미지02">
-                            <div class="info">
-                                <p class="title">보헤미안 스타일의 아늑한 침실</p>
-                                <p class="txt">
-                                    <span>화초와 어스 톤 컬러</span>로 채워진 평온한 아이와의 공간<br/>
-                                    풍성한 텍스타일과 목재, 라탄 등의 소재는 낮이나 밤이나 평온하고 아늑한 느낌을 선사해요.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/main/showroom3.jpg" alt="쇼룸이미지03">
-                            <div class="info">
-                                <p class="title">10대 아이들을 위한 아지트</p>
-                                <p class="txt">
-                                    차분하면서 성숙한 느낌을 주는 그레이톤의 방에 아늑한 침대를<br/>놓아주면 10대 아이를 위한 <span>달콤한 안식처</span>가 완성됩니다.
-                                </p>
-                            </div>
-                        </div>  
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                 </div>
+                
             </div>
         </section>
         <section class="instagram content">
@@ -508,24 +510,24 @@
         </section>
         <div class="animated-title">
             <div class="track">
-              <div class="eng_content">&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA</div>
-            </div>
-            <div class="kor_content">많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.</div>
+                <div class="eng_content">&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA&nbsp;TO CREATE A BETTER EVERYDAY LIFE FOR THE MANY PEOPLE IN IKEA</div>
+                </div>
+                <div class="kor_content">많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.&nbsp;많은 사람들을 위한 더 좋은 생활을 만들어가는 이케아 IKEA 입니다.</div>
           </div>
-        <footer>
+        <footer class="footer">
             <div class="inner">
                 <h1 class="logo"><img src="img/common/logo.svg" alt="이케아로고"></h1>
                 <div class="wrap">
                     <div class="info">
                         <div class="terms">
                             <span>개인정보처리방침</span>
-                            <span>쿠키 정책</span>
+                            <span>쿠키정책</span>
                             <span>웹사이트 이용약관</span>
-                            <span>쿠키 설정</span>
+                            <span>쿠키설정</span>
                         </div>
                         <div class="add">
                             <span>IKEA 코리아</span>
-                            <span>주소 : (우) XXXXX 경기도 광명시 XX</span>
+                            <address>주소 : (우) XXXXX 경기도 광명시 XX</address>
                             <span>사업자 등록번호 : XXX-XX-XXXX</span>
                         </div>
                         <div class="name">
@@ -548,6 +550,6 @@
                 </div>
             </div>
         </footer>
-        <script src="js/main.js"></script>
+        <script src="js/main-origin.js"></script>
     </body>
 </html>
