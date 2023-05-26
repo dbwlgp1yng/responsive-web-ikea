@@ -74,18 +74,18 @@ $(function(){
             hide: true,
         },
         slidesPerView: 5,
-        spaceBetween: 40,
+        spaceBetween: 30,   
         autoplay: {
             delay: 2000,
             disableOnInteraction: false,
         },
         breakpoints: {
             480: {
-                slidesPerView: 5,
+                slidesPerView: 2.5,
                 // slidesPerGroup: 2,
             },
             768: {
-                slidesPerView: 5,
+                slidesPerView: 4.5,
             },
             1200: {
                 slidesPerView: 5,
