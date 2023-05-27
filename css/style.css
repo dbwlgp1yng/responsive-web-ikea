@@ -123,7 +123,7 @@ aside .btn_top.on{ opacity: 1; }
 .visual .swiper .swiper-slide.main02 .info p{ color: #333; }
 .visual .swiper .swiper-slide.main03 .info p:nth-of-type(2){ text-shadow: 0 2px 4px rgba(255,255,255,.7); }
 .visual .swiper .swiper-slide.main03 .info p:nth-of-type(2n-1){ text-shadow: 0 2px 4px rgba(3,3,3,0.3); }
-.visual .swiper-button-next::after, .visual .swiper-button-prev::after{ color: #fff; }
+.visual .swiper-button-next::after, .visual .swiper-button-prev::after{ color: #fff; transition: .3s; }
 .visual .swiper-button-next{ right: 20px; }
 .visual .swiper-button-prev{ left: 20px; }
 @media screen and (max-width: 1200px) {
@@ -136,10 +136,11 @@ aside .btn_top.on{ opacity: 1; }
 @media screen and (max-width: 768px) {
     .visual .swiper .swiper-slide .info .main_title{ font-size: 24px; }
     .visual .swiper .swiper-slide .info .main_txt{ font-size: 14px; }
+    .visual .swiper-button-next::after, .visual .swiper-button-prev::after{ font-size: 24px; }
 }
 @media screen and (max-width: 480px) {
-    .visual .swiper .swiper-slide .info .main_title{ font-size: 24px; }
-    .visual .swiper .swiper-slide .info .main_txt{ font-size: 14px; }
+    .visual .swiper .swiper-slide .info .main_title{ font-size: 18px; }
+    .visual .swiper .swiper-slide .info .main_txt{ font-size: 12px; }
 }
 
 /* brand information */
