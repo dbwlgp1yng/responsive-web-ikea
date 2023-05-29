@@ -80,9 +80,12 @@ $(function(){
             disableOnInteraction: false,
         },
         breakpoints: {
-            480: {
+            320: {
                 slidesPerView: 2.5,
                 // slidesPerGroup: 2,
+            },
+            480: {
+                slidesPerView: 2.5,
             },
             768: {
                 slidesPerView: 4.5,
