@@ -438,8 +438,7 @@ aside .btn_top.on{ opacity: 1; }
 .footer .inner .logo img{ display: block; height: 50px; }
 /* .footer .inner .wrap{ font: 14px 'inherit'; } */
 .footer .inner .wrap span, .footer .inner .wrap .info address{ padding-right: 10px; font: normal 14px 'Noto Sans KR', sans-serif; color: #fff; transition: .3s; }
-.footer .inner .wrap .info > div{ display: flex; }
-
+.footer .inner .wrap .info .terms{ width: 100%; }
 .footer .inner a{ padding: 0 0 0 20px; }
 .footer .inner .sns{ display: flex; font: 28px/80px 'inherit'; }
 .footer .inner .sns i{ color: #fff; }
@@ -451,6 +450,7 @@ aside .btn_top.on{ opacity: 1; }
     .footer .inner{ padding: 0; flex-direction: column; width: 100%; }
     .footer .inner .logo{ padding: 20px 40px; }
     .footer .inner > div{ width: 100%; padding: 20px 40px; background-color: rgba(255,255,255,.9); border-bottom: 1px solid #333; }
+
     .footer .inner .shortcut:last-of-type{ border-bottom: 0; }
     .footer .inner .wrap span, 
     .footer .inner .wrap .info address{ color: #333; }
