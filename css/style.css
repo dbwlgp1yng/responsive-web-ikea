@@ -98,7 +98,7 @@ ul, ol, li{ list-style: none; }
 
 /* aside */
 aside .btn_top{ 
-    position: fixed; right: calc(50% - 685px); bottom: 72px; z-index: 1;
+    position: fixed; right: calc(50% - 685px); bottom: 100px; z-index: 1;
     width: 40px; height: 40px;
     border-radius: 50%; border: 0;
     cursor: pointer; background-color: #ffdb00;
