@@ -1,4 +1,3 @@
-
 let winWidth = window.innerWidth;
 let pos = [];
 let baseLine = -300;
@@ -7,7 +6,7 @@ let btnTop = document.querySelector('.btn_top');
 
 function saveSectionPos(){
     pos = [];
-
+    
     con.forEach(el => pos.push(el.offsetTop));
     pos.push(document.getElementsByTagName('footer')[0].offsetTop);
 }

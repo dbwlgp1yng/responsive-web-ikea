@@ -25,8 +25,8 @@ ul, ol, li{ list-style: none; }
     .content{ padding: 80px 40px; } 
     .content .title{ margin: 0 0 10px; font: 900 28px 'Montserrat', sans-serif; }
 }
-@media screen and (max-width: 480px) {
-    .content{ padding: 60px 20px; } 
+@media screen and (max-width: 320px) {
+    
 }
 
 /* header */
@@ -184,9 +184,9 @@ aside .btn_top.on{ opacity: 1; }
     cursor: pointer;
 }
 .category .inner .wrap .icon_banner .icon_wrap i{ color: #0157A2; }
-.category .inner .wrap .icon_banner p{ font: bold 20px 'inherit'; color: #fff; text-shadow: 0 2px 4px rgba(3,3,3,0.3); }
 .category .inner .wrap .icon_banner .icon_wrap:hover{ background-color: #ffdb00; }
 .category .inner .wrap .icon_banner .icon_wrap:hover i { color: #fff; }
+.category .inner .wrap .icon_banner p{ font: bold 20px 'inherit'; color: #fff; text-shadow: 0 2px 4px rgba(3,3,3,0.3); }
 @media screen and (max-width: 1200px) {
     .category .inner .wrap{ width: 100%; }
     .category .inner .wrap .icon_banner{ width: 17.6%; }
@@ -201,6 +201,10 @@ aside .btn_top.on{ opacity: 1; }
     .category .inner .wrap .icon_banner .icon_wrap{ width: 60px; height: 60px; }
     .category .inner .wrap .icon_banner .icon_wrap i{ font-size: 24px; }
     .category .inner .wrap .icon_banner p{ font-size: 12px; }
+}
+@media screen and (max-width: 320px) {
+    .category .inner .wrap .icon_banner .icon_wrap{ width: 45px; height: 45px; }
+    .category .inner .wrap .icon_banner .icon_wrap i{ font-size: 18px; }
 }
 
 /* best product */
