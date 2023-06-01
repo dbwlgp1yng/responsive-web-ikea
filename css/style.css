@@ -127,9 +127,12 @@ aside .btn_top.on{ opacity: 1; }
 .visual .swiper .swiper-slide.main03{ background: url(../img/main/mainslider03.png) center no-repeat; background-size: cover; }
 .visual .swiper .swiper-slide .info{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; }
 .visual .swiper .swiper-slide .info p{ color: #fff; }
-.visual .swiper .swiper-slide .info .main_title{ z-index: 1; font: 700 48px 'Montserrat', sans-serif; margin: 20px 0; transition: .3s; }
+.visual .swiper .swiper-slide .info .main_title{ z-index: 1; font: 700 48px 'Montserrat', sans-serif; margin: 20px 0; opacity: 0; transition: .3s .5s; }
 .visual .swiper .swiper-slide .info .main_title .yellow{ color: #ffdb00; }
-.visual .swiper .swiper-slide .info .main_txt{ font: 500 24px 'Montserrat', sans-serif; transition: .3s; }
+.visual .swiper .swiper-slide .info .top{ font: 500 24px 'Montserrat', sans-serif; opacity: 0; transition: .3s 0s; }
+.visual .swiper .swiper-slide .info .bottom{ font: 500 24px 'Montserrat', sans-serif; opacity: 0; transition: .3s 1s; }
+.visual .swiper .swiper-slide-active .info .main_title{ opacity: 1; }
+.visual .swiper .swiper-slide-active .info .main_txt{ opacity: 1; }
 .visual .swiper .swiper-slide.main02 .info p{ color: #333; }
 .visual .swiper .swiper-slide.main03 .info p:nth-of-type(2n-1){ text-shadow: 0 2px 4px rgba(3,3,3,0.3); }
 .visual .swiper-button-next::after, .visual .swiper-button-prev::after{ color: #fff; transition: .3s; }

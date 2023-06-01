@@ -38,6 +38,10 @@ $(function(){
     var swiper = new Swiper(".visual .swiper", {
         loop: true,
         centeredSlides: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
         navigation: {
           nextEl: ".visual .swiper-button-next",
           prevEl: ".visual .swiper-button-prev",
