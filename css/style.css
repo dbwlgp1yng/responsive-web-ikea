@@ -86,7 +86,6 @@ ul, ol, li{ list-style: none; }
     .header{ background-color: #0157A2; }
     .header .inner{ padding: 0 40px; }
     .header .inner .toggle{ display: block; }
-    .header .inner .logo a img{ }
     .header .inner .gnb_wrap{
         display: none; 
         position: fixed; top: 60px; right: 0;
@@ -424,12 +423,12 @@ aside .btn_top.on{ opacity: 1; }
 }
 .animated-title .eng_content{
     position: absolute; top: 0; white-space: nowrap; color: #ffdb00;
-    will-change: transform; animation: marquee_eng 60s linear infinite; 
+    will-change: transform; animation: marquee_eng 200s linear infinite; 
 }
 .animated-title .kor_content{
     position: absolute; bottom: 20px;
     white-space: nowrap; will-change: transform;
-    animation: marquee_kor 60s linear infinite; color: #0157A2;
+    animation: marquee_kor 200s linear infinite; color: #0157A2;
 }
 @keyframes marquee_eng{
     from { transform: translateX(0); }
