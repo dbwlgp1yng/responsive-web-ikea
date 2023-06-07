@@ -12,7 +12,6 @@ $(function(){
         saveSectionPos();
     });
 
-    // header
     $('.toggle').on('click', function(){
         $('.gnb_wrap').fadeToggle();
     });
