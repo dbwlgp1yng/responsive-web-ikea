@@ -7,7 +7,10 @@ $(function(){
     $(window).on('resize', function(){
         winWidth = $(this).width();
         if(winWidth > 768){
+            $('.submenu').removeAttr('style');
             $('.gnb_wrap').removeAttr('style');
+        }else{
+            
         }
         saveSectionPos();
     });
