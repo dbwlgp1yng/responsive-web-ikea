@@ -383,13 +383,13 @@ aside .btn_top.on{ opacity: 1; }
     .showroom .inner .wrap .swiper .swiper-button-prev::after{ font-size: 16px; line-height: 30px; }
 }
 @media screen and (max-width: 768px) {
-    .showroom{ padding: 60px 20px; margin: 0; }
+    .showroom{ padding: 60px 40px; margin: 0; }
     .showroom .inner .wrap .swiper .swiper-wrapper .swiper-slide{ flex-direction: column; }
     .showroom .inner .wrap .swiper .swiper-wrapper .swiper-slide img{ width: 100%; }
     .showroom .inner .wrap .swiper .swiper-wrapper .swiper-slide .info{ width: 100%; height: 250px; padding: 0 40px; }
 }
 @media screen and (max-width: 480px) {
-
+    .showroom{ padding: 60px 20px; margin: 0; }
 }
 
 /* instagram */
