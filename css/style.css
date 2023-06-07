@@ -214,7 +214,7 @@ aside .btn_top.on{ opacity: 1; }
     .category .inner .wrap .icon_banner{ width: 17.6%; }
 }
 @media screen and (max-width: 768px) {
-    .category{ width: 100%; padding: 20px 40px; margin: 0; }
+    .category{ width: 100%; padding: 40px; margin: 0; }
     .category .inner .wrap .icon_banner .icon_wrap{ width: 80px; height: 80px; margin-bottom: 10px; }
     .category .inner .wrap .icon_banner .icon_wrap i{ font-size: 36px; }
 }
